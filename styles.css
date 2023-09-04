@@ -87,7 +87,7 @@ button {
     background-color: #4CAF50;
     color: #fff;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 1s;
 
     margin: 5px;
 }
@@ -101,6 +101,14 @@ button:hover {
     font-size: 14px;
     margin-top: 10px;
 }
+
+.return-button {
+    height: 29px;
+    text-align: center;
+}
+  
+
+  
 
 /* Estilos para telas menores (máximo 768px) */
 @media screen and (max-width: 768px) {

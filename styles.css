@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Zilla+Slab:wght@300&display=swap');
+
 /* Estilos padrão para telas grandes */
 body {
     font-size: 16px;
@@ -9,10 +11,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
-
-li {
-    color: aqua;
 }
 
 .resolutions-section {
@@ -106,9 +104,12 @@ button:hover {
     height: 29px;
     text-align: center;
 }
-  
 
-  
+.warning {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: red;
+}
 
 /* Estilos para telas menores (máximo 768px) */
 @media screen and (max-width: 768px) {

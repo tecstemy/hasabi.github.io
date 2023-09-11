@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Terminal Group - Regras</title>
+    <title>Hasabi - Página Principal</title>
 </head>
 <body>
     <div class="terminal">
@@ -19,17 +19,23 @@
                     <h1 style="text-align: center;">H A S A B I</h1>
                 </code>
             </pre>
-            <div class="rules-section">
-                <h2>Regras Gerais</h2>
+            <div class="main-section">
+                <h2>Bem-vindo(a) ao site do Hasabi</h2>
+                <p>Esta é a página principal. Neste site, você pode encontrar resolução de tarefas, últimas notícias sobre a escola/grupo e serviços.</p>
+                
+                <h2>Acesso às Páginas:</h2>
+
                 <ul>
-                    <li>Em hipótese alguma fale da existência deste site. Mesmo que você não cite nomes.</li>
-                    <li>Desafiar a autoridade do Hasabi é um tabu. Dissidências serão tratadas com rapidez.</li>
-                    <li>Nada deve sair do Hasabi. O vazamento de informações não será tolerado e você perderá totalmente o acesso do Hasabi permanentemente.</li>
+                    <li><a href="regras.html" target="_self" rel="next">Regras Hasabi (leia)</a></li>
+
+                    <li><a href="tarefas.html" target="_self" rel="next">Resolução de Tarefas</a></li>
                 </ul>
 
-                <a href="home.html" target="_self" rel="prev"><button>Retornar</button></a>
+                <button onclick="logout()">Sair da sua conta atual</button>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
